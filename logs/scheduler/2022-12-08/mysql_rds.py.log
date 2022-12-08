@@ -1,0 +1,60 @@
+[2022-12-08 16:35:01,859] {processor.py:153} INFO - Started process (PID=2668) to work on /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:35:01,859] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysql_rds.py for tasks to queue
+[2022-12-08 16:35:01,859] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,859] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:35:01,870] {processor.py:651} INFO - DAG(s) dict_keys(['mysql_operator_dag']) retrieved from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:35:01,930] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,930] {manager.py:508} INFO - Created Permission View: can read on DAG:mysql_operator_dag
+[2022-12-08 16:35:01,936] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,936] {manager.py:508} INFO - Created Permission View: can delete on DAG:mysql_operator_dag
+[2022-12-08 16:35:01,941] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,941] {manager.py:508} INFO - Created Permission View: can edit on DAG:mysql_operator_dag
+[2022-12-08 16:35:01,941] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,941] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:35:01,948] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,948] {dag.py:2390} INFO - Creating ORM DAG for mysql_operator_dag
+[2022-12-08 16:35:01,958] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,958] {dag.py:2919} INFO - Setting next_dagrun for mysql_operator_dag to 2020-02-02T00:00:00+00:00, run_after=2020-02-02T00:00:00+00:00
+[2022-12-08 16:35:01,967] {processor.py:161} INFO - Processing /opt/airflow/dags/mysql_rds.py took 0.111 seconds
+[2022-12-08 16:35:32,302] {processor.py:153} INFO - Started process (PID=2748) to work on /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:35:32,302] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysql_rds.py for tasks to queue
+[2022-12-08 16:35:32,302] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,302] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:35:32,309] {processor.py:651} INFO - DAG(s) dict_keys(['mysql_operator_dag']) retrieved from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:35:32,327] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,327] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:35:32,343] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,343] {dag.py:2919} INFO - Setting next_dagrun for mysql_operator_dag to 2020-02-02T00:00:00+00:00, run_after=2020-02-02T00:00:00+00:00
+[2022-12-08 16:35:32,351] {processor.py:161} INFO - Processing /opt/airflow/dags/mysql_rds.py took 0.052 seconds
+[2022-12-08 16:36:02,870] {processor.py:153} INFO - Started process (PID=2819) to work on /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:36:02,870] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysql_rds.py for tasks to queue
+[2022-12-08 16:36:02,871] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,871] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:36:02,878] {processor.py:651} INFO - DAG(s) dict_keys(['mysql_operator_dag']) retrieved from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:36:02,896] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,896] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:36:02,912] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,912] {dag.py:2919} INFO - Setting next_dagrun for mysql_operator_dag to 2020-02-02T00:00:00+00:00, run_after=2020-02-02T00:00:00+00:00
+[2022-12-08 16:36:02,919] {processor.py:161} INFO - Processing /opt/airflow/dags/mysql_rds.py took 0.052 seconds
+[2022-12-08 16:36:33,371] {processor.py:153} INFO - Started process (PID=2898) to work on /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:36:33,371] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysql_rds.py for tasks to queue
+[2022-12-08 16:36:33,371] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,371] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:36:33,378] {processor.py:651} INFO - DAG(s) dict_keys(['mysql_operator_dag']) retrieved from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:36:33,396] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,396] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:36:33,412] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,412] {dag.py:2919} INFO - Setting next_dagrun for mysql_operator_dag to 2020-02-02T00:00:00+00:00, run_after=2020-02-02T00:00:00+00:00
+[2022-12-08 16:36:33,420] {processor.py:161} INFO - Processing /opt/airflow/dags/mysql_rds.py took 0.052 seconds
+[2022-12-08 16:37:03,800] {processor.py:153} INFO - Started process (PID=2976) to work on /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:37:03,801] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysql_rds.py for tasks to queue
+[2022-12-08 16:37:03,801] {logging_mixin.py:115} INFO - [2022-12-08 16:37:03,801] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:37:03,808] {processor.py:651} INFO - DAG(s) dict_keys(['mysql_operator_dag']) retrieved from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:37:03,826] {logging_mixin.py:115} INFO - [2022-12-08 16:37:03,826] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:37:03,842] {logging_mixin.py:115} INFO - [2022-12-08 16:37:03,842] {dag.py:2919} INFO - Setting next_dagrun for mysql_operator_dag to 2020-02-02T00:00:00+00:00, run_after=2020-02-02T00:00:00+00:00
+[2022-12-08 16:37:03,850] {processor.py:161} INFO - Processing /opt/airflow/dags/mysql_rds.py took 0.052 seconds
+[2022-12-08 16:37:34,359] {processor.py:153} INFO - Started process (PID=3054) to work on /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:37:34,359] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysql_rds.py for tasks to queue
+[2022-12-08 16:37:34,360] {logging_mixin.py:115} INFO - [2022-12-08 16:37:34,360] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:37:34,367] {processor.py:651} INFO - DAG(s) dict_keys(['mysql_operator_dag']) retrieved from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:37:34,385] {logging_mixin.py:115} INFO - [2022-12-08 16:37:34,385] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:37:34,401] {logging_mixin.py:115} INFO - [2022-12-08 16:37:34,401] {dag.py:2919} INFO - Setting next_dagrun for mysql_operator_dag to 2020-02-02T00:00:00+00:00, run_after=2020-02-02T00:00:00+00:00
+[2022-12-08 16:37:34,409] {processor.py:161} INFO - Processing /opt/airflow/dags/mysql_rds.py took 0.053 seconds
+[2022-12-08 16:38:05,117] {processor.py:153} INFO - Started process (PID=3121) to work on /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:38:05,118] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysql_rds.py for tasks to queue
+[2022-12-08 16:38:05,118] {logging_mixin.py:115} INFO - [2022-12-08 16:38:05,118] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:38:05,125] {processor.py:651} INFO - DAG(s) dict_keys(['mysql_operator_dag']) retrieved from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:38:05,143] {logging_mixin.py:115} INFO - [2022-12-08 16:38:05,142] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:38:05,158] {logging_mixin.py:115} INFO - [2022-12-08 16:38:05,158] {dag.py:2919} INFO - Setting next_dagrun for mysql_operator_dag to 2020-02-02T00:00:00+00:00, run_after=2020-02-02T00:00:00+00:00
+[2022-12-08 16:38:05,167] {processor.py:161} INFO - Processing /opt/airflow/dags/mysql_rds.py took 0.052 seconds
+[2022-12-08 16:38:35,625] {processor.py:153} INFO - Started process (PID=3197) to work on /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:38:35,626] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysql_rds.py for tasks to queue
+[2022-12-08 16:38:35,626] {logging_mixin.py:115} INFO - [2022-12-08 16:38:35,626] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:38:35,633] {processor.py:651} INFO - DAG(s) dict_keys(['mysql_operator_dag']) retrieved from /opt/airflow/dags/mysql_rds.py
+[2022-12-08 16:38:35,651] {logging_mixin.py:115} INFO - [2022-12-08 16:38:35,651] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:38:35,667] {logging_mixin.py:115} INFO - [2022-12-08 16:38:35,667] {dag.py:2919} INFO - Setting next_dagrun for mysql_operator_dag to 2020-02-02T00:00:00+00:00, run_after=2020-02-02T00:00:00+00:00
+[2022-12-08 16:38:35,675] {processor.py:161} INFO - Processing /opt/airflow/dags/mysql_rds.py took 0.053 seconds

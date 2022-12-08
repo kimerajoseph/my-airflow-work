@@ -1,0 +1,100 @@
+[2022-12-08 16:35:01,974] {processor.py:153} INFO - Started process (PID=2669) to work on /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:35:01,974] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift copy.py for tasks to queue
+[2022-12-08 16:35:01,975] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,975] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:35:02,485] {logging_mixin.py:115} INFO - [2022-12-08 16:35:02,484] {credentials.py:1120} INFO - Found credentials in environment variables.
+[2022-12-08 16:35:02,681] {logging_mixin.py:115} INFO - [2022-12-08 16:35:02,681] {credentials.py:1120} INFO - Found credentials in environment variables.
+[2022-12-08 16:35:03,328] {logging_mixin.py:115} INFO - [2022-12-08 16:35:03,327] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/move_data_s3redshift copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/move_data_s3redshift copy.py", line 36, in <module>
+    python_callable=move_data_between_s3_and_redshift.read_from_s3_and_insert_redshift(BUCKET_NAME,filename,GLUE_CONNECTION,'airflow_trips')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-12-08 16:35:03,328] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:35:03,336] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift copy.py took 1.364 seconds
+[2022-12-08 16:35:33,368] {processor.py:153} INFO - Started process (PID=2749) to work on /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:35:33,368] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift copy.py for tasks to queue
+[2022-12-08 16:35:33,369] {logging_mixin.py:115} INFO - [2022-12-08 16:35:33,369] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:35:33,867] {logging_mixin.py:115} INFO - [2022-12-08 16:35:33,867] {credentials.py:1120} INFO - Found credentials in environment variables.
+[2022-12-08 16:35:34,045] {logging_mixin.py:115} INFO - [2022-12-08 16:35:34,045] {credentials.py:1120} INFO - Found credentials in environment variables.
+[2022-12-08 16:35:34,652] {logging_mixin.py:115} INFO - [2022-12-08 16:35:34,651] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/move_data_s3redshift copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/move_data_s3redshift copy.py", line 36, in <module>
+    python_callable=move_data_between_s3_and_redshift.read_from_s3_and_insert_redshift(BUCKET_NAME,filename,GLUE_CONNECTION,'airflow_trips')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-12-08 16:35:34,652] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:35:34,659] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift copy.py took 1.294 seconds
+[2022-12-08 16:36:04,939] {processor.py:153} INFO - Started process (PID=2829) to work on /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:36:04,939] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift copy.py for tasks to queue
+[2022-12-08 16:36:04,940] {logging_mixin.py:115} INFO - [2022-12-08 16:36:04,940] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:36:05,440] {logging_mixin.py:115} INFO - [2022-12-08 16:36:05,440] {credentials.py:1120} INFO - Found credentials in environment variables.
+[2022-12-08 16:36:05,630] {logging_mixin.py:115} INFO - [2022-12-08 16:36:05,630] {credentials.py:1120} INFO - Found credentials in environment variables.
+[2022-12-08 16:36:06,288] {logging_mixin.py:115} INFO - [2022-12-08 16:36:06,287] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/move_data_s3redshift copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/move_data_s3redshift copy.py", line 36, in <module>
+    python_callable=move_data_between_s3_and_redshift.read_from_s3_and_insert_redshift(BUCKET_NAME,filename,GLUE_CONNECTION,'airflow_trips')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-12-08 16:36:06,288] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:36:06,296] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift copy.py took 1.359 seconds
+[2022-12-08 16:36:36,441] {processor.py:153} INFO - Started process (PID=2899) to work on /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:36:36,441] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift copy.py for tasks to queue
+[2022-12-08 16:36:36,441] {logging_mixin.py:115} INFO - [2022-12-08 16:36:36,441] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:36:36,941] {logging_mixin.py:115} INFO - [2022-12-08 16:36:36,941] {credentials.py:1120} INFO - Found credentials in environment variables.
+[2022-12-08 16:36:37,127] {logging_mixin.py:115} INFO - [2022-12-08 16:36:37,127] {credentials.py:1120} INFO - Found credentials in environment variables.
+[2022-12-08 16:36:37,757] {logging_mixin.py:115} INFO - [2022-12-08 16:36:37,757] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/move_data_s3redshift copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/move_data_s3redshift copy.py", line 36, in <module>
+    python_callable=move_data_between_s3_and_redshift.read_from_s3_and_insert_redshift(BUCKET_NAME,filename,GLUE_CONNECTION,'airflow_trips')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-12-08 16:36:37,758] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:36:37,764] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift copy.py took 1.326 seconds
+[2022-12-08 16:37:07,877] {processor.py:153} INFO - Started process (PID=2977) to work on /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:37:07,878] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift copy.py for tasks to queue
+[2022-12-08 16:37:07,878] {logging_mixin.py:115} INFO - [2022-12-08 16:37:07,878] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:37:08,394] {logging_mixin.py:115} INFO - [2022-12-08 16:37:08,394] {credentials.py:1120} INFO - Found credentials in environment variables.
+[2022-12-08 16:37:08,584] {logging_mixin.py:115} INFO - [2022-12-08 16:37:08,584] {credentials.py:1120} INFO - Found credentials in environment variables.
+[2022-12-08 16:37:09,190] {logging_mixin.py:115} INFO - [2022-12-08 16:37:09,189] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/move_data_s3redshift copy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/move_data_s3redshift copy.py", line 36, in <module>
+    python_callable=move_data_between_s3_and_redshift.read_from_s3_and_insert_redshift(BUCKET_NAME,filename,GLUE_CONNECTION,'airflow_trips')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 158, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-12-08 16:37:09,190] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/move_data_s3redshift copy.py
+[2022-12-08 16:37:09,198] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift copy.py took 1.323 seconds

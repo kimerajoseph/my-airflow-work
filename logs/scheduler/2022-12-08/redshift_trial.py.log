@@ -1,0 +1,60 @@
+[2022-12-08 16:35:01,601] {processor.py:153} INFO - Started process (PID=2665) to work on /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:35:01,602] {processor.py:641} INFO - Processing file /opt/airflow/dags/redshift_trial.py for tasks to queue
+[2022-12-08 16:35:01,602] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,602] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:35:01,674] {processor.py:651} INFO - DAG(s) dict_keys(['redshift']) retrieved from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:35:01,744] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,744] {manager.py:508} INFO - Created Permission View: can read on DAG:redshift
+[2022-12-08 16:35:01,751] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,751] {manager.py:508} INFO - Created Permission View: can delete on DAG:redshift
+[2022-12-08 16:35:01,756] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,756] {manager.py:508} INFO - Created Permission View: can edit on DAG:redshift
+[2022-12-08 16:35:01,756] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,756] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:35:01,762] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,762] {dag.py:2390} INFO - Creating ORM DAG for redshift
+[2022-12-08 16:35:01,772] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,772] {dag.py:2919} INFO - Setting next_dagrun for redshift to None, run_after=None
+[2022-12-08 16:35:01,782] {processor.py:161} INFO - Processing /opt/airflow/dags/redshift_trial.py took 0.183 seconds
+[2022-12-08 16:35:32,148] {processor.py:153} INFO - Started process (PID=2745) to work on /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:35:32,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/redshift_trial.py for tasks to queue
+[2022-12-08 16:35:32,148] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,148] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:35:32,219] {processor.py:651} INFO - DAG(s) dict_keys(['redshift']) retrieved from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:35:32,236] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,236] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:35:32,252] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,252] {dag.py:2919} INFO - Setting next_dagrun for redshift to None, run_after=None
+[2022-12-08 16:35:32,260] {processor.py:161} INFO - Processing /opt/airflow/dags/redshift_trial.py took 0.115 seconds
+[2022-12-08 16:36:02,708] {processor.py:153} INFO - Started process (PID=2816) to work on /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:36:02,708] {processor.py:641} INFO - Processing file /opt/airflow/dags/redshift_trial.py for tasks to queue
+[2022-12-08 16:36:02,709] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,708] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:36:02,779] {processor.py:651} INFO - DAG(s) dict_keys(['redshift']) retrieved from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:36:02,797] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,797] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:36:02,813] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,813] {dag.py:2919} INFO - Setting next_dagrun for redshift to None, run_after=None
+[2022-12-08 16:36:02,820] {processor.py:161} INFO - Processing /opt/airflow/dags/redshift_trial.py took 0.115 seconds
+[2022-12-08 16:36:33,247] {processor.py:153} INFO - Started process (PID=2895) to work on /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:36:33,247] {processor.py:641} INFO - Processing file /opt/airflow/dags/redshift_trial.py for tasks to queue
+[2022-12-08 16:36:33,248] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,248] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:36:33,318] {processor.py:651} INFO - DAG(s) dict_keys(['redshift']) retrieved from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:36:33,336] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,336] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:36:33,351] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,351] {dag.py:2919} INFO - Setting next_dagrun for redshift to None, run_after=None
+[2022-12-08 16:36:33,359] {processor.py:161} INFO - Processing /opt/airflow/dags/redshift_trial.py took 0.114 seconds
+[2022-12-08 16:37:03,676] {processor.py:153} INFO - Started process (PID=2973) to work on /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:37:03,676] {processor.py:641} INFO - Processing file /opt/airflow/dags/redshift_trial.py for tasks to queue
+[2022-12-08 16:37:03,676] {logging_mixin.py:115} INFO - [2022-12-08 16:37:03,676] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:37:03,747] {processor.py:651} INFO - DAG(s) dict_keys(['redshift']) retrieved from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:37:03,765] {logging_mixin.py:115} INFO - [2022-12-08 16:37:03,765] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:37:03,780] {logging_mixin.py:115} INFO - [2022-12-08 16:37:03,780] {dag.py:2919} INFO - Setting next_dagrun for redshift to None, run_after=None
+[2022-12-08 16:37:03,788] {processor.py:161} INFO - Processing /opt/airflow/dags/redshift_trial.py took 0.115 seconds
+[2022-12-08 16:37:34,233] {processor.py:153} INFO - Started process (PID=3051) to work on /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:37:34,233] {processor.py:641} INFO - Processing file /opt/airflow/dags/redshift_trial.py for tasks to queue
+[2022-12-08 16:37:34,234] {logging_mixin.py:115} INFO - [2022-12-08 16:37:34,234] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:37:34,305] {processor.py:651} INFO - DAG(s) dict_keys(['redshift']) retrieved from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:37:34,323] {logging_mixin.py:115} INFO - [2022-12-08 16:37:34,323] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:37:34,339] {logging_mixin.py:115} INFO - [2022-12-08 16:37:34,339] {dag.py:2919} INFO - Setting next_dagrun for redshift to None, run_after=None
+[2022-12-08 16:37:34,347] {processor.py:161} INFO - Processing /opt/airflow/dags/redshift_trial.py took 0.116 seconds
+[2022-12-08 16:38:04,993] {processor.py:153} INFO - Started process (PID=3118) to work on /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:38:04,993] {processor.py:641} INFO - Processing file /opt/airflow/dags/redshift_trial.py for tasks to queue
+[2022-12-08 16:38:04,994] {logging_mixin.py:115} INFO - [2022-12-08 16:38:04,994] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:38:05,064] {processor.py:651} INFO - DAG(s) dict_keys(['redshift']) retrieved from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:38:05,082] {logging_mixin.py:115} INFO - [2022-12-08 16:38:05,082] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:38:05,097] {logging_mixin.py:115} INFO - [2022-12-08 16:38:05,097] {dag.py:2919} INFO - Setting next_dagrun for redshift to None, run_after=None
+[2022-12-08 16:38:05,105] {processor.py:161} INFO - Processing /opt/airflow/dags/redshift_trial.py took 0.114 seconds
+[2022-12-08 16:38:35,501] {processor.py:153} INFO - Started process (PID=3194) to work on /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:38:35,501] {processor.py:641} INFO - Processing file /opt/airflow/dags/redshift_trial.py for tasks to queue
+[2022-12-08 16:38:35,502] {logging_mixin.py:115} INFO - [2022-12-08 16:38:35,502] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:38:35,572] {processor.py:651} INFO - DAG(s) dict_keys(['redshift']) retrieved from /opt/airflow/dags/redshift_trial.py
+[2022-12-08 16:38:35,590] {logging_mixin.py:115} INFO - [2022-12-08 16:38:35,590] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:38:35,605] {logging_mixin.py:115} INFO - [2022-12-08 16:38:35,605] {dag.py:2919} INFO - Setting next_dagrun for redshift to None, run_after=None
+[2022-12-08 16:38:35,613] {processor.py:161} INFO - Processing /opt/airflow/dags/redshift_trial.py took 0.115 seconds

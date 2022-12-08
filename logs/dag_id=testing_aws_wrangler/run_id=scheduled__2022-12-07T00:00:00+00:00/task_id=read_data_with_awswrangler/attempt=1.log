@@ -1,0 +1,28 @@
+[2022-12-08 13:07:19,009] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: testing_aws_wrangler.read_data_with_awswrangler scheduled__2022-12-07T00:00:00+00:00 [queued]>
+[2022-12-08 13:07:19,015] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: testing_aws_wrangler.read_data_with_awswrangler scheduled__2022-12-07T00:00:00+00:00 [queued]>
+[2022-12-08 13:07:19,015] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-08 13:07:19,015] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-12-08 13:07:19,015] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-08 13:07:19,024] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): read_data_with_awswrangler> on 2022-12-07 00:00:00+00:00
+[2022-12-08 13:07:19,029] {standard_task_runner.py:52} INFO - Started process 84 to run task
+[2022-12-08 13:07:19,031] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'testing_aws_wrangler', 'read_data_with_awswrangler', 'scheduled__2022-12-07T00:00:00+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/test_pandas.py', '--cfg-path', '/tmp/tmpukkmnmli', '--error-file', '/tmp/tmpfbx5_t0b']
+[2022-12-08 13:07:19,032] {standard_task_runner.py:80} INFO - Job 49: Subtask read_data_with_awswrangler
+[2022-12-08 13:07:19,042] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/configuration.py:470: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-12-08 13:07:19,070] {task_command.py:369} INFO - Running <TaskInstance: testing_aws_wrangler.read_data_with_awswrangler scheduled__2022-12-07T00:00:00+00:00 [running]> on host 9dfbc4a34191
+[2022-12-08 13:07:19,122] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=nic@enye.tech
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=testing_aws_wrangler
+AIRFLOW_CTX_TASK_ID=read_data_with_awswrangler
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-07T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-07T00:00:00+00:00
+[2022-12-08 13:07:19,134] {credentials.py:1120} INFO - Found credentials in environment variables.
+[2022-12-08 13:07:19,492] {python.py:173} INFO - Done. Returned value was: (76518, 20)
+[2022-12-08 13:07:19,511] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=testing_aws_wrangler, task_id=read_data_with_awswrangler, execution_date=20221207T000000, start_date=20221208T130719, end_date=20221208T130719
+[2022-12-08 13:07:19,563] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-12-08 13:07:19,587] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

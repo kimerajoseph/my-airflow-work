@@ -1,0 +1,46 @@
+[2022-12-04 19:20:06,865] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: second_test_s3_file_sensor.s3_file_check manual__2022-12-04T18:48:00.087483+00:00 [queued]>
+[2022-12-04 19:20:06,871] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: second_test_s3_file_sensor.s3_file_check manual__2022-12-04T18:48:00.087483+00:00 [queued]>
+[2022-12-04 19:20:06,871] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-04 19:20:06,871] {taskinstance.py:1357} INFO - Starting attempt 1 of 3
+[2022-12-04 19:20:06,871] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-04 19:20:06,881] {taskinstance.py:1377} INFO - Executing <Task(S3KeySensor): s3_file_check> on 2022-12-04 18:48:00.087483+00:00
+[2022-12-04 19:20:06,885] {standard_task_runner.py:52} INFO - Started process 555 to run task
+[2022-12-04 19:20:06,887] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'second_test_s3_file_sensor', 's3_file_check', 'manual__2022-12-04T18:48:00.087483+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/s3_file_sensor2.py', '--cfg-path', '/tmp/tmpf2euung_', '--error-file', '/tmp/tmpfog02sjm']
+[2022-12-04 19:20:06,887] {standard_task_runner.py:80} INFO - Job 10: Subtask s3_file_check
+[2022-12-04 19:20:06,923] {task_command.py:369} INFO - Running <TaskInstance: second_test_s3_file_sensor.s3_file_check manual__2022-12-04T18:48:00.087483+00:00 [running]> on host 096df828fe38
+[2022-12-04 19:20:06,973] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=nic@enye.tech
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=second_test_s3_file_sensor
+AIRFLOW_CTX_TASK_ID=s3_file_check
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-04T18:48:00.087483+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-04T18:48:00.087483+00:00
+[2022-12-04 19:20:06,974] {s3.py:98} INFO - Poking for key : s3://***-jkimera-bucket/new_req.txt
+[2022-12-04 19:20:06,980] {base.py:68} INFO - Using connection ID 's3_conn' for task execution.
+[2022-12-04 19:20:06,981] {base_aws.py:206} INFO - Credentials retrieved from login
+[2022-12-04 19:20:07,047] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/base.py", line 277, in execute
+    poke_return = self.poke(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 101, in poke
+    return self.get_hook().check_for_key(self.bucket_key, self.bucket_name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 63, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 91, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 369, in check_for_key
+    raise e
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 363, in check_for_key
+    self.get_conn().head_object(Bucket=bucket_name, Key=key)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 415, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 745, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (403) when calling the HeadObject operation: Forbidden
+[2022-12-04 19:20:07,054] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=second_test_s3_file_sensor, task_id=s3_file_check, execution_date=20221204T184800, start_date=20221204T192006, end_date=20221204T192007
+[2022-12-04 19:20:07,063] {standard_task_runner.py:97} ERROR - Failed to execute job 10 for task s3_file_check (An error occurred (403) when calling the HeadObject operation: Forbidden; 555)
+[2022-12-04 19:20:07,099] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-12-04 19:20:07,137] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

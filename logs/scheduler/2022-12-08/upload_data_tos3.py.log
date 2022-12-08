@@ -1,0 +1,32 @@
+[2022-12-08 16:35:01,229] {processor.py:153} INFO - Started process (PID=2659) to work on /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:35:01,229] {processor.py:641} INFO - Processing file /opt/airflow/dags/upload_data_tos3.py for tasks to queue
+[2022-12-08 16:35:01,229] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,229] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:35:01,297] {processor.py:651} INFO - DAG(s) dict_keys(['s3_file_upload']) retrieved from /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:35:01,355] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,355] {manager.py:508} INFO - Created Permission View: can read on DAG:s3_file_upload
+[2022-12-08 16:35:01,362] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,362] {manager.py:508} INFO - Created Permission View: can delete on DAG:s3_file_upload
+[2022-12-08 16:35:01,367] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,367] {manager.py:508} INFO - Created Permission View: can edit on DAG:s3_file_upload
+[2022-12-08 16:35:01,367] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,367] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:35:01,373] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,373] {dag.py:2390} INFO - Creating ORM DAG for s3_file_upload
+[2022-12-08 16:35:01,383] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,383] {dag.py:2919} INFO - Setting next_dagrun for s3_file_upload to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:35:01,393] {processor.py:161} INFO - Processing /opt/airflow/dags/upload_data_tos3.py took 0.166 seconds
+[2022-12-08 16:35:31,890] {processor.py:153} INFO - Started process (PID=2739) to work on /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:35:31,890] {processor.py:641} INFO - Processing file /opt/airflow/dags/upload_data_tos3.py for tasks to queue
+[2022-12-08 16:35:31,891] {logging_mixin.py:115} INFO - [2022-12-08 16:35:31,891] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:35:31,954] {processor.py:651} INFO - DAG(s) dict_keys(['s3_file_upload']) retrieved from /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:35:31,970] {logging_mixin.py:115} INFO - [2022-12-08 16:35:31,970] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:35:31,987] {logging_mixin.py:115} INFO - [2022-12-08 16:35:31,987] {dag.py:2919} INFO - Setting next_dagrun for s3_file_upload to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:35:31,996] {processor.py:161} INFO - Processing /opt/airflow/dags/upload_data_tos3.py took 0.109 seconds
+[2022-12-08 16:36:02,451] {processor.py:153} INFO - Started process (PID=2810) to work on /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:36:02,451] {processor.py:641} INFO - Processing file /opt/airflow/dags/upload_data_tos3.py for tasks to queue
+[2022-12-08 16:36:02,451] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,451] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:36:02,515] {processor.py:651} INFO - DAG(s) dict_keys(['s3_file_upload']) retrieved from /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:36:02,531] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,531] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:36:02,548] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,548] {dag.py:2919} INFO - Setting next_dagrun for s3_file_upload to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:36:02,556] {processor.py:161} INFO - Processing /opt/airflow/dags/upload_data_tos3.py took 0.107 seconds
+[2022-12-08 16:36:33,040] {processor.py:153} INFO - Started process (PID=2890) to work on /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:36:33,040] {processor.py:641} INFO - Processing file /opt/airflow/dags/upload_data_tos3.py for tasks to queue
+[2022-12-08 16:36:33,040] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,040] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:36:33,105] {processor.py:651} INFO - DAG(s) dict_keys(['s3_file_upload']) retrieved from /opt/airflow/dags/upload_data_tos3.py
+[2022-12-08 16:36:33,121] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,121] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:36:33,138] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,138] {dag.py:2919} INFO - Setting next_dagrun for s3_file_upload to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:36:33,146] {processor.py:161} INFO - Processing /opt/airflow/dags/upload_data_tos3.py took 0.109 seconds

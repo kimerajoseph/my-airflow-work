@@ -1,0 +1,60 @@
+[2022-12-08 16:35:01,796] {processor.py:153} INFO - Started process (PID=2667) to work on /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:35:01,796] {processor.py:641} INFO - Processing file /opt/airflow/dags/new_s3hook_test.py for tasks to queue
+[2022-12-08 16:35:01,796] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,796] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:35:01,861] {processor.py:651} INFO - DAG(s) dict_keys(['new_test_s3_hook_jk']) retrieved from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:35:01,921] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,921] {manager.py:508} INFO - Created Permission View: can read on DAG:new_test_s3_hook_jk
+[2022-12-08 16:35:01,929] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,929] {manager.py:508} INFO - Created Permission View: can delete on DAG:new_test_s3_hook_jk
+[2022-12-08 16:35:01,933] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,933] {manager.py:508} INFO - Created Permission View: can edit on DAG:new_test_s3_hook_jk
+[2022-12-08 16:35:01,934] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,933] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:35:01,940] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,940] {dag.py:2390} INFO - Creating ORM DAG for new_test_s3_hook_jk
+[2022-12-08 16:35:01,950] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,950] {dag.py:2919} INFO - Setting next_dagrun for new_test_s3_hook_jk to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:35:01,960] {processor.py:161} INFO - Processing /opt/airflow/dags/new_s3hook_test.py took 0.167 seconds
+[2022-12-08 16:35:32,274] {processor.py:153} INFO - Started process (PID=2747) to work on /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:35:32,275] {processor.py:641} INFO - Processing file /opt/airflow/dags/new_s3hook_test.py for tasks to queue
+[2022-12-08 16:35:32,275] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,275] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:35:32,339] {processor.py:651} INFO - DAG(s) dict_keys(['new_test_s3_hook_jk']) retrieved from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:35:32,355] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,355] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:35:32,372] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,372] {dag.py:2919} INFO - Setting next_dagrun for new_test_s3_hook_jk to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:35:32,381] {processor.py:161} INFO - Processing /opt/airflow/dags/new_s3hook_test.py took 0.109 seconds
+[2022-12-08 16:36:02,833] {processor.py:153} INFO - Started process (PID=2818) to work on /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:36:02,833] {processor.py:641} INFO - Processing file /opt/airflow/dags/new_s3hook_test.py for tasks to queue
+[2022-12-08 16:36:02,834] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,833] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:36:02,897] {processor.py:651} INFO - DAG(s) dict_keys(['new_test_s3_hook_jk']) retrieved from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:36:02,913] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,913] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:36:02,930] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,930] {dag.py:2919} INFO - Setting next_dagrun for new_test_s3_hook_jk to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:36:02,938] {processor.py:161} INFO - Processing /opt/airflow/dags/new_s3hook_test.py took 0.108 seconds
+[2022-12-08 16:36:33,353] {processor.py:153} INFO - Started process (PID=2897) to work on /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:36:33,353] {processor.py:641} INFO - Processing file /opt/airflow/dags/new_s3hook_test.py for tasks to queue
+[2022-12-08 16:36:33,353] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,353] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:36:33,417] {processor.py:651} INFO - DAG(s) dict_keys(['new_test_s3_hook_jk']) retrieved from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:36:33,432] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,432] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:36:33,449] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,449] {dag.py:2919} INFO - Setting next_dagrun for new_test_s3_hook_jk to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:36:33,457] {processor.py:161} INFO - Processing /opt/airflow/dags/new_s3hook_test.py took 0.107 seconds
+[2022-12-08 16:37:03,790] {processor.py:153} INFO - Started process (PID=2975) to work on /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:37:03,790] {processor.py:641} INFO - Processing file /opt/airflow/dags/new_s3hook_test.py for tasks to queue
+[2022-12-08 16:37:03,791] {logging_mixin.py:115} INFO - [2022-12-08 16:37:03,791] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:37:03,854] {processor.py:651} INFO - DAG(s) dict_keys(['new_test_s3_hook_jk']) retrieved from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:37:03,869] {logging_mixin.py:115} INFO - [2022-12-08 16:37:03,869] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:37:03,886] {logging_mixin.py:115} INFO - [2022-12-08 16:37:03,886] {dag.py:2919} INFO - Setting next_dagrun for new_test_s3_hook_jk to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:37:03,894] {processor.py:161} INFO - Processing /opt/airflow/dags/new_s3hook_test.py took 0.107 seconds
+[2022-12-08 16:37:34,350] {processor.py:153} INFO - Started process (PID=3053) to work on /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:37:34,351] {processor.py:641} INFO - Processing file /opt/airflow/dags/new_s3hook_test.py for tasks to queue
+[2022-12-08 16:37:34,351] {logging_mixin.py:115} INFO - [2022-12-08 16:37:34,351] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:37:34,414] {processor.py:651} INFO - DAG(s) dict_keys(['new_test_s3_hook_jk']) retrieved from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:37:34,430] {logging_mixin.py:115} INFO - [2022-12-08 16:37:34,430] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:37:34,447] {logging_mixin.py:115} INFO - [2022-12-08 16:37:34,447] {dag.py:2919} INFO - Setting next_dagrun for new_test_s3_hook_jk to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:37:34,455] {processor.py:161} INFO - Processing /opt/airflow/dags/new_s3hook_test.py took 0.107 seconds
+[2022-12-08 16:38:05,109] {processor.py:153} INFO - Started process (PID=3120) to work on /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:38:05,109] {processor.py:641} INFO - Processing file /opt/airflow/dags/new_s3hook_test.py for tasks to queue
+[2022-12-08 16:38:05,109] {logging_mixin.py:115} INFO - [2022-12-08 16:38:05,109] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:38:05,172] {processor.py:651} INFO - DAG(s) dict_keys(['new_test_s3_hook_jk']) retrieved from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:38:05,188] {logging_mixin.py:115} INFO - [2022-12-08 16:38:05,188] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:38:05,205] {logging_mixin.py:115} INFO - [2022-12-08 16:38:05,205] {dag.py:2919} INFO - Setting next_dagrun for new_test_s3_hook_jk to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:38:05,213] {processor.py:161} INFO - Processing /opt/airflow/dags/new_s3hook_test.py took 0.107 seconds
+[2022-12-08 16:38:35,616] {processor.py:153} INFO - Started process (PID=3196) to work on /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:38:35,616] {processor.py:641} INFO - Processing file /opt/airflow/dags/new_s3hook_test.py for tasks to queue
+[2022-12-08 16:38:35,617] {logging_mixin.py:115} INFO - [2022-12-08 16:38:35,617] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:38:35,680] {processor.py:651} INFO - DAG(s) dict_keys(['new_test_s3_hook_jk']) retrieved from /opt/airflow/dags/new_s3hook_test.py
+[2022-12-08 16:38:35,695] {logging_mixin.py:115} INFO - [2022-12-08 16:38:35,695] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:38:35,712] {logging_mixin.py:115} INFO - [2022-12-08 16:38:35,712] {dag.py:2919} INFO - Setting next_dagrun for new_test_s3_hook_jk to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:38:35,720] {processor.py:161} INFO - Processing /opt/airflow/dags/new_s3hook_test.py took 0.107 seconds

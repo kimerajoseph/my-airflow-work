@@ -1,0 +1,25 @@
+[2022-12-08 16:35:01,351] {processor.py:153} INFO - Started process (PID=2661) to work on /opt/airflow/dags/s3_to_redshift.py
+[2022-12-08 16:35:01,352] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_to_redshift.py for tasks to queue
+[2022-12-08 16:35:01,352] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,352] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_to_redshift.py
+[2022-12-08 16:35:01,462] {processor.py:651} INFO - DAG(s) dict_keys(['test_s3_to_redshift']) retrieved from /opt/airflow/dags/s3_to_redshift.py
+[2022-12-08 16:35:01,513] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,513] {manager.py:508} INFO - Created Permission View: can read on DAG:test_s3_to_redshift
+[2022-12-08 16:35:01,519] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,519] {manager.py:508} INFO - Created Permission View: can delete on DAG:test_s3_to_redshift
+[2022-12-08 16:35:01,524] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,524] {manager.py:508} INFO - Created Permission View: can edit on DAG:test_s3_to_redshift
+[2022-12-08 16:35:01,524] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,524] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:35:01,530] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,530] {dag.py:2390} INFO - Creating ORM DAG for test_s3_to_redshift
+[2022-12-08 16:35:01,540] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,540] {dag.py:2919} INFO - Setting next_dagrun for test_s3_to_redshift to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:35:01,550] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_to_redshift.py took 0.201 seconds
+[2022-12-08 16:35:31,956] {processor.py:153} INFO - Started process (PID=2741) to work on /opt/airflow/dags/s3_to_redshift.py
+[2022-12-08 16:35:31,957] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_to_redshift.py for tasks to queue
+[2022-12-08 16:35:31,957] {logging_mixin.py:115} INFO - [2022-12-08 16:35:31,957] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_to_redshift.py
+[2022-12-08 16:35:32,056] {processor.py:651} INFO - DAG(s) dict_keys(['test_s3_to_redshift']) retrieved from /opt/airflow/dags/s3_to_redshift.py
+[2022-12-08 16:35:32,066] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,066] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:35:32,083] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,082] {dag.py:2919} INFO - Setting next_dagrun for test_s3_to_redshift to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:35:32,091] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_to_redshift.py took 0.138 seconds
+[2022-12-08 16:36:02,517] {processor.py:153} INFO - Started process (PID=2812) to work on /opt/airflow/dags/s3_to_redshift.py
+[2022-12-08 16:36:02,518] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_to_redshift.py for tasks to queue
+[2022-12-08 16:36:02,518] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,518] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_to_redshift.py
+[2022-12-08 16:36:02,617] {processor.py:651} INFO - DAG(s) dict_keys(['test_s3_to_redshift']) retrieved from /opt/airflow/dags/s3_to_redshift.py
+[2022-12-08 16:36:02,627] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,627] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:36:02,644] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,644] {dag.py:2919} INFO - Setting next_dagrun for test_s3_to_redshift to 2022-12-07T00:00:00+00:00, run_after=2022-12-08T00:00:00+00:00
+[2022-12-08 16:36:02,652] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_to_redshift.py took 0.137 seconds

@@ -1,0 +1,40 @@
+[2022-12-08 16:35:01,579] {processor.py:153} INFO - Started process (PID=2664) to work on /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:35:01,580] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor.py for tasks to queue
+[2022-12-08 16:35:01,580] {logging_mixin.py:115} INFO - [2022-12-08 16:35:01,580] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:35:01,581] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:35:01,591] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor.py took 0.014 seconds
+[2022-12-08 16:35:32,125] {processor.py:153} INFO - Started process (PID=2744) to work on /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:35:32,126] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor.py for tasks to queue
+[2022-12-08 16:35:32,126] {logging_mixin.py:115} INFO - [2022-12-08 16:35:32,126] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:35:32,127] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:35:32,137] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor.py took 0.014 seconds
+[2022-12-08 16:36:02,685] {processor.py:153} INFO - Started process (PID=2815) to work on /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:36:02,686] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor.py for tasks to queue
+[2022-12-08 16:36:02,686] {logging_mixin.py:115} INFO - [2022-12-08 16:36:02,686] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:36:02,687] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:36:02,697] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor.py took 0.014 seconds
+[2022-12-08 16:36:33,226] {processor.py:153} INFO - Started process (PID=2894) to work on /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:36:33,226] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor.py for tasks to queue
+[2022-12-08 16:36:33,226] {logging_mixin.py:115} INFO - [2022-12-08 16:36:33,226] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:36:33,227] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:36:33,236] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor.py took 0.013 seconds
+[2022-12-08 16:37:03,653] {processor.py:153} INFO - Started process (PID=2972) to work on /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:37:03,654] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor.py for tasks to queue
+[2022-12-08 16:37:03,654] {logging_mixin.py:115} INFO - [2022-12-08 16:37:03,654] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:37:03,655] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:37:03,665] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor.py took 0.014 seconds
+[2022-12-08 16:37:34,210] {processor.py:153} INFO - Started process (PID=3050) to work on /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:37:34,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor.py for tasks to queue
+[2022-12-08 16:37:34,210] {logging_mixin.py:115} INFO - [2022-12-08 16:37:34,210] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:37:34,211] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:37:34,221] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor.py took 0.014 seconds
+[2022-12-08 16:38:04,971] {processor.py:153} INFO - Started process (PID=3117) to work on /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:38:04,971] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor.py for tasks to queue
+[2022-12-08 16:38:04,972] {logging_mixin.py:115} INFO - [2022-12-08 16:38:04,972] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:38:04,972] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:38:04,982] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor.py took 0.014 seconds
+[2022-12-08 16:38:35,479] {processor.py:153} INFO - Started process (PID=3193) to work on /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:38:35,479] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor.py for tasks to queue
+[2022-12-08 16:38:35,479] {logging_mixin.py:115} INFO - [2022-12-08 16:38:35,479] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:38:35,480] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/s3_file_sensor.py
+[2022-12-08 16:38:35,490] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor.py took 0.013 seconds
