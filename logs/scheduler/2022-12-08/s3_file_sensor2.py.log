@@ -2848,3 +2848,31 @@
 [2022-12-08 16:43:32,715] {logging_mixin.py:115} INFO - [2022-12-08 16:43:32,714] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-12-08 16:43:32,730] {logging_mixin.py:115} INFO - [2022-12-08 16:43:32,730] {dag.py:2919} INFO - Setting next_dagrun for third_test_s3_file_sensor to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
 [2022-12-08 16:43:32,737] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor2.py took 0.545 seconds
+[2022-12-08 16:44:03,574] {processor.py:153} INFO - Started process (PID=3951) to work on /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:44:03,575] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor2.py for tasks to queue
+[2022-12-08 16:44:03,575] {logging_mixin.py:115} INFO - [2022-12-08 16:44:03,575] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:44:04,077] {processor.py:651} INFO - DAG(s) dict_keys(['third_test_s3_file_sensor']) retrieved from /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:44:04,095] {logging_mixin.py:115} INFO - [2022-12-08 16:44:04,094] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:44:04,110] {logging_mixin.py:115} INFO - [2022-12-08 16:44:04,110] {dag.py:2919} INFO - Setting next_dagrun for third_test_s3_file_sensor to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:44:04,116] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor2.py took 0.545 seconds
+[2022-12-08 16:44:35,046] {processor.py:153} INFO - Started process (PID=4027) to work on /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:44:35,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor2.py for tasks to queue
+[2022-12-08 16:44:35,047] {logging_mixin.py:115} INFO - [2022-12-08 16:44:35,047] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:44:35,554] {processor.py:651} INFO - DAG(s) dict_keys(['third_test_s3_file_sensor']) retrieved from /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:44:35,571] {logging_mixin.py:115} INFO - [2022-12-08 16:44:35,571] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:44:35,587] {logging_mixin.py:115} INFO - [2022-12-08 16:44:35,587] {dag.py:2919} INFO - Setting next_dagrun for third_test_s3_file_sensor to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:44:35,594] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor2.py took 0.550 seconds
+[2022-12-08 16:45:06,562] {processor.py:153} INFO - Started process (PID=4103) to work on /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:45:06,563] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor2.py for tasks to queue
+[2022-12-08 16:45:06,563] {logging_mixin.py:115} INFO - [2022-12-08 16:45:06,563] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:45:07,067] {processor.py:651} INFO - DAG(s) dict_keys(['third_test_s3_file_sensor']) retrieved from /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:45:07,085] {logging_mixin.py:115} INFO - [2022-12-08 16:45:07,084] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:45:07,100] {logging_mixin.py:115} INFO - [2022-12-08 16:45:07,100] {dag.py:2919} INFO - Setting next_dagrun for third_test_s3_file_sensor to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:45:07,107] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor2.py took 0.546 seconds
+[2022-12-08 16:45:38,033] {processor.py:153} INFO - Started process (PID=4170) to work on /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:45:38,033] {processor.py:641} INFO - Processing file /opt/airflow/dags/s3_file_sensor2.py for tasks to queue
+[2022-12-08 16:45:38,034] {logging_mixin.py:115} INFO - [2022-12-08 16:45:38,034] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:45:38,543] {processor.py:651} INFO - DAG(s) dict_keys(['third_test_s3_file_sensor']) retrieved from /opt/airflow/dags/s3_file_sensor2.py
+[2022-12-08 16:45:38,561] {logging_mixin.py:115} INFO - [2022-12-08 16:45:38,561] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:45:38,577] {logging_mixin.py:115} INFO - [2022-12-08 16:45:38,577] {dag.py:2919} INFO - Setting next_dagrun for third_test_s3_file_sensor to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:45:38,584] {processor.py:161} INFO - Processing /opt/airflow/dags/s3_file_sensor2.py took 0.553 seconds
