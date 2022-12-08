@@ -2903,3 +2903,66 @@ airflow.exceptions.AirflowException: `python_callable` param must be callable
 [2022-12-08 16:38:52,263] {logging_mixin.py:115} INFO - [2022-12-08 16:38:52,262] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-12-08 16:38:52,278] {logging_mixin.py:115} INFO - [2022-12-08 16:38:52,278] {dag.py:2919} INFO - Setting next_dagrun for move_data_from_s3_to_redshidt_with_awswrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
 [2022-12-08 16:38:52,286] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift.py took 0.544 seconds
+[2022-12-08 16:39:22,342] {processor.py:153} INFO - Started process (PID=3284) to work on /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:39:22,342] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift.py for tasks to queue
+[2022-12-08 16:39:22,343] {logging_mixin.py:115} INFO - [2022-12-08 16:39:22,343] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:39:22,847] {processor.py:651} INFO - DAG(s) dict_keys(['move_data_from_s3_to_redshidt_with_awswrangler']) retrieved from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:39:22,855] {logging_mixin.py:115} INFO - [2022-12-08 16:39:22,855] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:39:22,871] {logging_mixin.py:115} INFO - [2022-12-08 16:39:22,871] {dag.py:2919} INFO - Setting next_dagrun for move_data_from_s3_to_redshidt_with_awswrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:39:22,878] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift.py took 0.539 seconds
+[2022-12-08 16:39:53,847] {processor.py:153} INFO - Started process (PID=3360) to work on /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:39:53,847] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift.py for tasks to queue
+[2022-12-08 16:39:53,848] {logging_mixin.py:115} INFO - [2022-12-08 16:39:53,848] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:39:54,355] {processor.py:651} INFO - DAG(s) dict_keys(['move_data_from_s3_to_redshidt_with_awswrangler']) retrieved from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:39:54,363] {logging_mixin.py:115} INFO - [2022-12-08 16:39:54,362] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:39:54,378] {logging_mixin.py:115} INFO - [2022-12-08 16:39:54,378] {dag.py:2919} INFO - Setting next_dagrun for move_data_from_s3_to_redshidt_with_awswrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:39:54,386] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift.py took 0.541 seconds
+[2022-12-08 16:40:24,473] {processor.py:153} INFO - Started process (PID=3436) to work on /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:40:24,474] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift.py for tasks to queue
+[2022-12-08 16:40:24,474] {logging_mixin.py:115} INFO - [2022-12-08 16:40:24,474] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:40:24,978] {processor.py:651} INFO - DAG(s) dict_keys(['move_data_from_s3_to_redshidt_with_awswrangler']) retrieved from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:40:24,987] {logging_mixin.py:115} INFO - [2022-12-08 16:40:24,986] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:40:25,002] {logging_mixin.py:115} INFO - [2022-12-08 16:40:25,002] {dag.py:2919} INFO - Setting next_dagrun for move_data_from_s3_to_redshidt_with_awswrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:40:25,009] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift.py took 0.538 seconds
+[2022-12-08 16:40:55,894] {processor.py:153} INFO - Started process (PID=3503) to work on /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:40:55,895] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift.py for tasks to queue
+[2022-12-08 16:40:55,895] {logging_mixin.py:115} INFO - [2022-12-08 16:40:55,895] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:40:56,401] {processor.py:651} INFO - DAG(s) dict_keys(['move_data_from_s3_to_redshidt_with_awswrangler']) retrieved from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:40:56,410] {logging_mixin.py:115} INFO - [2022-12-08 16:40:56,409] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:40:56,425] {logging_mixin.py:115} INFO - [2022-12-08 16:40:56,425] {dag.py:2919} INFO - Setting next_dagrun for move_data_from_s3_to_redshidt_with_awswrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:40:56,431] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift.py took 0.539 seconds
+[2022-12-08 16:41:27,432] {processor.py:153} INFO - Started process (PID=3579) to work on /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:41:27,432] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift.py for tasks to queue
+[2022-12-08 16:41:27,433] {logging_mixin.py:115} INFO - [2022-12-08 16:41:27,433] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:41:27,938] {processor.py:651} INFO - DAG(s) dict_keys(['move_data_from_s3_to_redshidt_with_awswrangler']) retrieved from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:41:27,946] {logging_mixin.py:115} INFO - [2022-12-08 16:41:27,946] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:41:27,962] {logging_mixin.py:115} INFO - [2022-12-08 16:41:27,962] {dag.py:2919} INFO - Setting next_dagrun for move_data_from_s3_to_redshidt_with_awswrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:41:27,968] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift.py took 0.539 seconds
+[2022-12-08 16:41:58,843] {processor.py:153} INFO - Started process (PID=3655) to work on /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:41:58,843] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift.py for tasks to queue
+[2022-12-08 16:41:58,844] {logging_mixin.py:115} INFO - [2022-12-08 16:41:58,844] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:41:59,345] {processor.py:651} INFO - DAG(s) dict_keys(['move_data_from_s3_to_redshidt_with_awswrangler']) retrieved from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:41:59,354] {logging_mixin.py:115} INFO - [2022-12-08 16:41:59,353] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:41:59,369] {logging_mixin.py:115} INFO - [2022-12-08 16:41:59,369] {dag.py:2919} INFO - Setting next_dagrun for move_data_from_s3_to_redshidt_with_awswrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:41:59,375] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift.py took 0.535 seconds
+[2022-12-08 16:42:30,162] {processor.py:153} INFO - Started process (PID=3731) to work on /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:42:30,162] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift.py for tasks to queue
+[2022-12-08 16:42:30,162] {logging_mixin.py:115} INFO - [2022-12-08 16:42:30,162] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:42:30,667] {processor.py:651} INFO - DAG(s) dict_keys(['move_data_from_s3_to_redshidt_with_awswrangler']) retrieved from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:42:30,675] {logging_mixin.py:115} INFO - [2022-12-08 16:42:30,675] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:42:30,691] {logging_mixin.py:115} INFO - [2022-12-08 16:42:30,691] {dag.py:2919} INFO - Setting next_dagrun for move_data_from_s3_to_redshidt_with_awswrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:42:30,697] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift.py took 0.538 seconds
+[2022-12-08 16:43:01,523] {processor.py:153} INFO - Started process (PID=3807) to work on /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:43:01,524] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift.py for tasks to queue
+[2022-12-08 16:43:01,524] {logging_mixin.py:115} INFO - [2022-12-08 16:43:01,524] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:43:02,051] {processor.py:651} INFO - DAG(s) dict_keys(['move_data_from_s3_to_redshidt_with_awswrangler']) retrieved from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:43:02,060] {logging_mixin.py:115} INFO - [2022-12-08 16:43:02,059] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:43:02,075] {logging_mixin.py:115} INFO - [2022-12-08 16:43:02,075] {dag.py:2919} INFO - Setting next_dagrun for move_data_from_s3_to_redshidt_with_awswrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:43:02,082] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift.py took 0.561 seconds
+[2022-12-08 16:43:32,191] {processor.py:153} INFO - Started process (PID=3874) to work on /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:43:32,191] {processor.py:641} INFO - Processing file /opt/airflow/dags/move_data_s3redshift.py for tasks to queue
+[2022-12-08 16:43:32,192] {logging_mixin.py:115} INFO - [2022-12-08 16:43:32,191] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:43:32,695] {processor.py:651} INFO - DAG(s) dict_keys(['move_data_from_s3_to_redshidt_with_awswrangler']) retrieved from /opt/airflow/dags/move_data_s3redshift.py
+[2022-12-08 16:43:32,703] {logging_mixin.py:115} INFO - [2022-12-08 16:43:32,703] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:43:32,718] {logging_mixin.py:115} INFO - [2022-12-08 16:43:32,718] {dag.py:2919} INFO - Setting next_dagrun for move_data_from_s3_to_redshidt_with_awswrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:43:32,725] {processor.py:161} INFO - Processing /opt/airflow/dags/move_data_s3redshift.py took 0.536 seconds

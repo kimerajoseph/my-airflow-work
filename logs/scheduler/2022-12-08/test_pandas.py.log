@@ -2804,3 +2804,66 @@
 [2022-12-08 16:38:52,837] {logging_mixin.py:115} INFO - [2022-12-08 16:38:52,837] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-12-08 16:38:52,853] {logging_mixin.py:115} INFO - [2022-12-08 16:38:52,853] {dag.py:2919} INFO - Setting next_dagrun for testing_aws_wrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
 [2022-12-08 16:38:52,860] {processor.py:161} INFO - Processing /opt/airflow/dags/test_pandas.py took 0.558 seconds
+[2022-12-08 16:39:22,898] {processor.py:153} INFO - Started process (PID=3288) to work on /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:39:22,898] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_pandas.py for tasks to queue
+[2022-12-08 16:39:22,899] {logging_mixin.py:115} INFO - [2022-12-08 16:39:22,899] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:39:23,406] {processor.py:651} INFO - DAG(s) dict_keys(['testing_aws_wrangler']) retrieved from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:39:23,414] {logging_mixin.py:115} INFO - [2022-12-08 16:39:23,413] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:39:23,429] {logging_mixin.py:115} INFO - [2022-12-08 16:39:23,429] {dag.py:2919} INFO - Setting next_dagrun for testing_aws_wrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:39:23,436] {processor.py:161} INFO - Processing /opt/airflow/dags/test_pandas.py took 0.541 seconds
+[2022-12-08 16:39:54,404] {processor.py:153} INFO - Started process (PID=3364) to work on /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:39:54,405] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_pandas.py for tasks to queue
+[2022-12-08 16:39:54,405] {logging_mixin.py:115} INFO - [2022-12-08 16:39:54,405] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:39:54,911] {processor.py:651} INFO - DAG(s) dict_keys(['testing_aws_wrangler']) retrieved from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:39:54,919] {logging_mixin.py:115} INFO - [2022-12-08 16:39:54,919] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:39:54,935] {logging_mixin.py:115} INFO - [2022-12-08 16:39:54,935] {dag.py:2919} INFO - Setting next_dagrun for testing_aws_wrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:39:54,942] {processor.py:161} INFO - Processing /opt/airflow/dags/test_pandas.py took 0.541 seconds
+[2022-12-08 16:40:25,037] {processor.py:153} INFO - Started process (PID=3441) to work on /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:40:25,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_pandas.py for tasks to queue
+[2022-12-08 16:40:25,038] {logging_mixin.py:115} INFO - [2022-12-08 16:40:25,038] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:40:25,541] {processor.py:651} INFO - DAG(s) dict_keys(['testing_aws_wrangler']) retrieved from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:40:25,550] {logging_mixin.py:115} INFO - [2022-12-08 16:40:25,549] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:40:25,565] {logging_mixin.py:115} INFO - [2022-12-08 16:40:25,565] {dag.py:2919} INFO - Setting next_dagrun for testing_aws_wrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:40:25,571] {processor.py:161} INFO - Processing /opt/airflow/dags/test_pandas.py took 0.536 seconds
+[2022-12-08 16:40:56,449] {processor.py:153} INFO - Started process (PID=3507) to work on /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:40:56,450] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_pandas.py for tasks to queue
+[2022-12-08 16:40:56,450] {logging_mixin.py:115} INFO - [2022-12-08 16:40:56,450] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:40:56,962] {processor.py:651} INFO - DAG(s) dict_keys(['testing_aws_wrangler']) retrieved from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:40:56,970] {logging_mixin.py:115} INFO - [2022-12-08 16:40:56,970] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:40:56,986] {logging_mixin.py:115} INFO - [2022-12-08 16:40:56,986] {dag.py:2919} INFO - Setting next_dagrun for testing_aws_wrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:40:56,992] {processor.py:161} INFO - Processing /opt/airflow/dags/test_pandas.py took 0.546 seconds
+[2022-12-08 16:41:27,987] {processor.py:153} INFO - Started process (PID=3583) to work on /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:41:27,987] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_pandas.py for tasks to queue
+[2022-12-08 16:41:27,987] {logging_mixin.py:115} INFO - [2022-12-08 16:41:27,987] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:41:28,488] {processor.py:651} INFO - DAG(s) dict_keys(['testing_aws_wrangler']) retrieved from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:41:28,496] {logging_mixin.py:115} INFO - [2022-12-08 16:41:28,496] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:41:28,512] {logging_mixin.py:115} INFO - [2022-12-08 16:41:28,512] {dag.py:2919} INFO - Setting next_dagrun for testing_aws_wrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:41:28,518] {processor.py:161} INFO - Processing /opt/airflow/dags/test_pandas.py took 0.534 seconds
+[2022-12-08 16:41:59,394] {processor.py:153} INFO - Started process (PID=3659) to work on /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:41:59,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_pandas.py for tasks to queue
+[2022-12-08 16:41:59,395] {logging_mixin.py:115} INFO - [2022-12-08 16:41:59,395] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:41:59,905] {processor.py:651} INFO - DAG(s) dict_keys(['testing_aws_wrangler']) retrieved from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:41:59,913] {logging_mixin.py:115} INFO - [2022-12-08 16:41:59,912] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:41:59,928] {logging_mixin.py:115} INFO - [2022-12-08 16:41:59,928] {dag.py:2919} INFO - Setting next_dagrun for testing_aws_wrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:41:59,935] {processor.py:161} INFO - Processing /opt/airflow/dags/test_pandas.py took 0.543 seconds
+[2022-12-08 16:42:30,715] {processor.py:153} INFO - Started process (PID=3735) to work on /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:42:30,716] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_pandas.py for tasks to queue
+[2022-12-08 16:42:30,716] {logging_mixin.py:115} INFO - [2022-12-08 16:42:30,716] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:42:31,223] {processor.py:651} INFO - DAG(s) dict_keys(['testing_aws_wrangler']) retrieved from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:42:31,231] {logging_mixin.py:115} INFO - [2022-12-08 16:42:31,231] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:42:31,246] {logging_mixin.py:115} INFO - [2022-12-08 16:42:31,246] {dag.py:2919} INFO - Setting next_dagrun for testing_aws_wrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:42:31,253] {processor.py:161} INFO - Processing /opt/airflow/dags/test_pandas.py took 0.541 seconds
+[2022-12-08 16:43:02,100] {processor.py:153} INFO - Started process (PID=3811) to work on /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:43:02,101] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_pandas.py for tasks to queue
+[2022-12-08 16:43:02,101] {logging_mixin.py:115} INFO - [2022-12-08 16:43:02,101] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:43:02,591] {processor.py:651} INFO - DAG(s) dict_keys(['testing_aws_wrangler']) retrieved from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:43:02,600] {logging_mixin.py:115} INFO - [2022-12-08 16:43:02,599] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:43:02,615] {logging_mixin.py:115} INFO - [2022-12-08 16:43:02,615] {dag.py:2919} INFO - Setting next_dagrun for testing_aws_wrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:43:02,622] {processor.py:161} INFO - Processing /opt/airflow/dags/test_pandas.py took 0.524 seconds
+[2022-12-08 16:43:32,744] {processor.py:153} INFO - Started process (PID=3878) to work on /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:43:32,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_pandas.py for tasks to queue
+[2022-12-08 16:43:32,745] {logging_mixin.py:115} INFO - [2022-12-08 16:43:32,745] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:43:33,246] {processor.py:651} INFO - DAG(s) dict_keys(['testing_aws_wrangler']) retrieved from /opt/airflow/dags/test_pandas.py
+[2022-12-08 16:43:33,255] {logging_mixin.py:115} INFO - [2022-12-08 16:43:33,254] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-12-08 16:43:33,270] {logging_mixin.py:115} INFO - [2022-12-08 16:43:33,270] {dag.py:2919} INFO - Setting next_dagrun for testing_aws_wrangler to 2022-12-08T00:00:00+00:00, run_after=2022-12-09T00:00:00+00:00
+[2022-12-08 16:43:33,276] {processor.py:161} INFO - Processing /opt/airflow/dags/test_pandas.py took 0.535 seconds
