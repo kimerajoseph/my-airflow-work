@@ -1,0 +1,99 @@
+Name:               ip-192-168-80-106.eu-west-3.compute.internal
+Roles:              <none>
+Labels:             alpha.eksctl.io/cluster-name=airflow-on-k8s
+                    alpha.eksctl.io/nodegroup-name=ng-spot1
+                    beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=c5a.large
+                    beta.kubernetes.io/os=linux
+                    eks.amazonaws.com/capacityType=SPOT
+                    eks.amazonaws.com/nodegroup=ng-spot1
+                    eks.amazonaws.com/nodegroup-image=ami-04ff3788958603d77
+                    eks.amazonaws.com/sourceLaunchTemplateId=lt-0168cb1bd9ebeed62
+                    eks.amazonaws.com/sourceLaunchTemplateVersion=1
+                    failure-domain.beta.kubernetes.io/region=eu-west-3
+                    failure-domain.beta.kubernetes.io/zone=eu-west-3c
+                    k8s.io/cloud-provider-aws=11bc0e44bb0b3bf4dceb2e1afa4a4189
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=ip-192-168-80-106.eu-west-3.compute.internal
+                    kubernetes.io/os=linux
+                    lifecycle=Ec2Spot
+                    node.kubernetes.io/instance-type=c5a.large
+                    topology.kubernetes.io/region=eu-west-3
+                    topology.kubernetes.io/zone=eu-west-3c
+Annotations:        alpha.kubernetes.io/provided-node-ip: 192.168.80.106
+                    node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Sun, 11 Dec 2022 09:39:22 +0000
+Taints:             spotInstance=true:PreferNoSchedule
+Unschedulable:      false
+Lease:
+  HolderIdentity:  ip-192-168-80-106.eu-west-3.compute.internal
+  AcquireTime:     <unset>
+  RenewTime:       Sun, 11 Dec 2022 09:55:41 +0000
+Conditions:
+  Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----             ------  -----------------                 ------------------                ------                       -------
+  MemoryPressure   False   Sun, 11 Dec 2022 09:55:11 +0000   Sun, 11 Dec 2022 09:39:19 +0000   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure     False   Sun, 11 Dec 2022 09:55:11 +0000   Sun, 11 Dec 2022 09:39:19 +0000   KubeletHasNoDiskPressure     kubelet has no disk pressure
+  PIDPressure      False   Sun, 11 Dec 2022 09:55:11 +0000   Sun, 11 Dec 2022 09:39:19 +0000   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready            True    Sun, 11 Dec 2022 09:55:11 +0000   Sun, 11 Dec 2022 09:39:43 +0000   KubeletReady                 kubelet is posting ready status
+Addresses:
+  InternalIP:   192.168.80.106
+  ExternalIP:   15.188.52.150
+  Hostname:     ip-192-168-80-106.eu-west-3.compute.internal
+  InternalDNS:  ip-192-168-80-106.eu-west-3.compute.internal
+  ExternalDNS:  ec2-15-188-52-150.eu-west-3.compute.amazonaws.com
+Capacity:
+  attachable-volumes-aws-ebs:  25
+  cpu:                         2
+  ephemeral-storage:           83873772Ki
+  hugepages-1Gi:               0
+  hugepages-2Mi:               0
+  memory:                      3965428Ki
+  pods:                        29
+Allocatable:
+  attachable-volumes-aws-ebs:  25
+  cpu:                         1930m
+  ephemeral-storage:           76224326324
+  hugepages-1Gi:               0
+  hugepages-2Mi:               0
+  memory:                      3275252Ki
+  pods:                        29
+System Info:
+  Machine ID:                 ec231614eb30eccccddb89629462407d
+  System UUID:                ec231614-eb30-eccc-cddb-89629462407d
+  Boot ID:                    932ca64e-d75d-4177-bc21-b6444121166a
+  Kernel Version:             5.4.219-126.411.amzn2.x86_64
+  OS Image:                   Amazon Linux 2
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  docker://20.10.17
+  Kubelet Version:            v1.23.13-eks-fb459a0
+  Kube-Proxy Version:         v1.23.13-eks-fb459a0
+ProviderID:                   aws:///eu-west-3c/i-0fdbd3fb9c129968b
+Non-terminated Pods:          (2 in total)
+  Namespace                   Name                CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                ------------  ----------  ---------------  -------------  ---
+  kube-system                 aws-node-bcz6t      25m (1%)      0 (0%)      0 (0%)           0 (0%)         16m
+  kube-system                 kube-proxy-fgcmp    100m (5%)     0 (0%)      0 (0%)           0 (0%)         16m
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource                    Requests   Limits
+  --------                    --------   ------
+  cpu                         125m (6%)  0 (0%)
+  memory                      0 (0%)     0 (0%)
+  ephemeral-storage           0 (0%)     0 (0%)
+  hugepages-1Gi               0 (0%)     0 (0%)
+  hugepages-2Mi               0 (0%)     0 (0%)
+  attachable-volumes-aws-ebs  0          0
+Events:
+  Type    Reason                   Age                From             Message
+  ----    ------                   ----               ----             -------
+  Normal  Starting                 16m                kube-proxy       
+  Normal  Starting                 16m                kubelet          Starting kubelet.
+  Normal  NodeHasSufficientMemory  16m (x2 over 16m)  kubelet          Node ip-192-168-80-106.eu-west-3.compute.internal status is now: NodeHasSufficientMemory
+  Normal  NodeHasNoDiskPressure    16m (x2 over 16m)  kubelet          Node ip-192-168-80-106.eu-west-3.compute.internal status is now: NodeHasNoDiskPressure
+  Normal  NodeHasSufficientPID     16m (x2 over 16m)  kubelet          Node ip-192-168-80-106.eu-west-3.compute.internal status is now: NodeHasSufficientPID
+  Normal  NodeAllocatableEnforced  16m                kubelet          Updated Node Allocatable limit across pods
+  Normal  RegisteredNode           16m                node-controller  Node ip-192-168-80-106.eu-west-3.compute.internal event: Registered Node ip-192-168-80-106.eu-west-3.compute.internal in Controller
+  Normal  NodeReady                15m                kubelet          Node ip-192-168-80-106.eu-west-3.compute.internal status is now: NodeReady

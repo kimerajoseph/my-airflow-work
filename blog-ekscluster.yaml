@@ -1,0 +1,33 @@
+---
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+ #name: ${AOK_EKS_CLUSTER_NAME}
+ name: airflow-eks-cluster
+ #region: ${AOK_AWS_REGION}
+ region: eu-west-3
+ version: "1.24"
+
+#availabilityZones: ["${AOK_AWS_REGION}a", "${AOK_AWS_REGION}b", "${AOK_AWS_REGION}c"]
+availabilityZones: ["eu-west-3a", "eu-west-3b", "eu-west-3c"]
+
+managedNodeGroups:
+- name: ng-on-demand
+  desiredCapacity: 2
+  minSize: 2
+  maxSize: 4
+  labels:
+    lifecycle: OnDemand
+  iam:
+    withAddonPolicies:
+      autoScaler: true
+ 
+- name: ng-spot1
+  desiredCapacity: 2
+  minSize: 1
+  maxSize: 4
+  instanceTypes: ["c5a.large","c5a.xlarge","c5.2xlarge"]
+  spot: true
+  labels:
+    lifecycle: Ec2Spot
