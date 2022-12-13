@@ -4,12 +4,13 @@ kind: ClusterConfig
 metadata:
   name: airflow
   region: eu-west-3
-  version: "1.16"
+  #version: "1.16"
 
 managedNodeGroups:
   - name: workers
     instanceType: t3.medium
     privateNetworking: true
+    # number of ec2 instances
     minSize: 1
     maxSize: 3
     desiredCapacity: 3
